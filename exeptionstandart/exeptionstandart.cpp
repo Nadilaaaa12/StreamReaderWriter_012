@@ -9,5 +9,7 @@ int main()
 	cout << "Awal Program" << endl; //penanda 1:...
 	try {
 		array<int, 3> data = { 3, 5, 7 };
+		//pesan array integar 3 elemen
+		cout << data.at(5) << endl;
 	}
 }

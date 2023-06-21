@@ -7,4 +7,7 @@ using namespace std;
 int main()
 {
 	cout << "Awal Program" << endl; //penanda 1:...
+	try {
+		array<int, 3> data = { 3, 5, 7 };
+	}
 }
